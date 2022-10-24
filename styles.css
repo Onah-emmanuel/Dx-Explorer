@@ -1,0 +1,121 @@
+body {
+ margin: 0;
+}
+.firstsection {
+    background: url(header.jpg);
+    background-position:bottom-right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    color: white;
+    box-sizing: border-box;
+}
+.div1 {
+    width: 50%;
+    display: flex;
+}
+.div1 h1 {
+    margin: 20px 20px;
+}
+.div0 {
+    display: flex;
+    width: 50%;
+    padding-left: 390px;
+    margin-left: 50px;
+}
+.div0 h1 {
+    margin: 20px 50px;
+}
+.div2 {
+    width: 40%;
+    margin-left: 700px;
+    box-sizing: border-box;
+}
+
+.btn1 {
+    background-color: tomato;
+    border-radius: 30px;
+    color: white;
+    border-color: rgb(247, 83, 43);
+    height: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.explore {
+    background: tomato;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    width: 300px;
+}
+.explore h2 {
+    color: white;
+    padding: 15px 0 15px 20px;
+}
+.explore h1 {
+    color: white;
+    padding: 15px 0 15px 20px;
+    font-size: 35px;
+}
+.explore p {
+    color: white;
+    padding: 0 0  30px 25px;
+}
+.explore h1 button {
+    background: white;
+    color: tomato;
+    border-radius: 20px;
+    margin: 40px 0 15px 25px;
+    padding: 20px;
+    font-size: large;
+    border: tomato;
+}
+.thirdsection {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+.thirdsection h1 {
+    padding-top: 10px;
+    padding-left: 25px;
+    color: white;
+}
+
+
+.btn2{
+    background: white;
+    color: tomato;
+    border-radius: 20px;
+     font-size: large;
+    border: tomato;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+.footericon {
+    margin-right: 60PX;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+a {
+    margin-right: 10px;
+}
