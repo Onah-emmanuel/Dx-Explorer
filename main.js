@@ -1,6 +1,10 @@
-// console.log(document)
-var hamburgerdiv= document.querySelector(".hamburger")
-console.log(hamburgerdiv)
-function dosomething() {
- hamburgerdiv.classList.toggle("showburger")
+
+
+
+ var hamburger = document.querySelector(".hamburger-container")
+
+console.log(hamburger)
+
+function addandremove() {
+    hamburger.classList.toggle('showburger')
 }
