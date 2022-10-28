@@ -213,14 +213,14 @@ z-index: 6;
     transform: translateY(0px) rotate(-45deg);
 }
 .mobile-links-holder {
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     transition: all 0.5s ease;
 
     position: fixed;
     transform: translatex(200%);
     right: 0;
     top: 0;
-    height: 35vh;
+    height: 310px;
     width: 100%;
     background: tomato;
     color: white;
